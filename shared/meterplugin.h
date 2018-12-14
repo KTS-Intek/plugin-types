@@ -10,6 +10,8 @@
 #include <QHash>
 #include <QPair>
 
+
+
 #include "meterplugintypes.h"
 #define PLG_VER_1_0     10//10 - only electric
 #define PLG_VER_1_1     11//11 - + water and maybe other
