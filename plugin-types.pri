@@ -1,3 +1,7 @@
+# Version=0.0.1
+#Dependencies -
+#
+#
 INCLUDEPATH  += $$PWD
 
 HEADERS += \
