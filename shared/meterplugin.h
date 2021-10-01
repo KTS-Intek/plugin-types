@@ -73,28 +73,8 @@ public:
 
     virtual QVariantHash getGoToSleep(const quint8 &seconds) = 0;
 
-//    virtual int getPasswdType() = 0;
+    virtual QVariantList getDefaultVirtualMetersSchema() = 0 ;//{ return QVariantList(); }// hashTmpData.insert("virtualmetersonly", true);
 
-//    virtual QByteArray getDefaultPasswd() = 0;
-
-//    virtual QByteArray getSupportedMeterType() = 0;
-
-//    virtual QStringList getListOfEnergy() = 0;
-
-////    virtual QList<QVariant> meterPollValue(const quint8 &pollStatus, const QByteArray &value, const QDateTime &dateTime, const QByteArray &passwd, const QByteArray &nodeID, const quint16 &command) = 0;
-
-////    virtual QHash<QString, QVariant> meterPollValue(const QHash<QString, QVariant> &hashData) = 0;
-
-//    virtual QPair<QVariant, QVariant> meterPollValue(const QHash<QString, QVariant> &hashData, const QHash<QString, QVariant> &hashTmpValues) = 0;
-
-
-//    virtual QList<QVariant> detectMeterTypeMessage(const QByteArray &nodeID) = 0;
-
-//    virtual QString detectMeter(const QByteArray &readArr) = 0;
-
-//    virtual bool isAllowed(const QByteArray &byteArr) = 0;
-
-//    virtual bool iHaveThreePhase() = 0;
 
 
 };

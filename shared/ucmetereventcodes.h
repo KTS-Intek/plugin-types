@@ -363,10 +363,10 @@ typedef QList<quint8> UcmEvGroupList;
 #define UCM_EV_PWR_QLT_VLTG_RTRN_2_ACCPTBL_VALUE_L2    0x290E
 #define UCM_EV_PWR_QLT_VLTG_RTRN_2_ACCPTBL_VALUE_L3    0x290F
 
-#define UCM_EV_IN_MAX_OVER                              0x2917 //23 Over current in neutral
+#define UCM_EV_IN_MAX_OVER                              0x2917 //23 Over current in neutral струм
 #define UCM_EV_IN_MAX_OK                                0x291B //27 Current I1 returned to an acceptable value
 
-#define UCM_EV_PWR_QLT_VLTG_VSS_RCURR_ON               0x291E//30 Revers current detected at least in one of phases
+#define UCM_EV_PWR_QLT_VLTG_VSS_RCURR_ON               0x291E//30 Revers current detected at least in one of phases струм
 #define UCM_EV_PWR_QLT_VLTG_VSS_RCURR_OFF              0x291F//31 No reverse current
 
 ///FRAUD DETECTION
