@@ -19,6 +19,8 @@
 #define PLG_VER_1_3     12//13 - + sleep commands
 
 #define PLG_VER_RELEASE PLG_VER_1_3
+
+#define CHECK_METERDT_PERIOD_MSEC     86400000 // 24 hours,
 //a test line for nothing
 
 class MeterPlugin
